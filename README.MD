@@ -29,7 +29,7 @@ MergeMaster also displays a real-time progress bar for better user experience.
 ### Install dependencies:
 
 ```bash
-pip install termcolor tqdm
+pip install -r requirements.txt
 ```
 
 ---
