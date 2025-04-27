@@ -7,7 +7,11 @@ from tqdm import tqdm
 FILE_TYPES = {
     'image': ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff', '.webp'],
     'video': ['.mp4', '.mkv', '.avi', '.mov', '.wmv', '.flv', '.webm'],
-    'document': ['.html', '.db', '.zip', '.xls', '.xlsx', '.rar', 'pdf', '.txt']
+    'audio': ['.mp3', '.wav', '.aac', '.ogg', '.flac', '.m4a'],
+    'document': ['.pdf', '.doc', '.docx', '.xls', '.xlsx', '.ppt', '.pptx', '.txt'],
+    'archive': ['.zip', '.rar', '.7z', '.tar', '.gz', '.bz2'],
+    'code': ['.py', '.js', '.html', '.css', '.java', '.cpp', '.c', '.cs', '.php', '.rb', '.go', '.ts'],
+    'ebook': ['.epub', '.mobi', '.azw3', '.fb2']
 }
 
 def should_copy(file, types, exclude_extensions, extensions):
