@@ -83,14 +83,14 @@ python3 MergeMaster.py -i /videos -o /merged_videos -t video -xe .mkv -k backup
 
 Made with ❤️ by [Mr.Tony]
 
-- GitHub: [github.com/mr-tony-1412](https://github.com/mr-tony-1412)
+- GitHub: [github.com/mrtony1412](https://github.com/mrtony1412)
 
 ---
 
 ## 🤝 Contributing
 
 Pull requests are welcome!  
-If you find a bug or have suggestions, feel free to [open an issue](https://github.com/mr-tony-1412/MergeMaster/issues).
+If you find a bug or have suggestions, feel free to [open an issue](https://github.com/mrtony1412/MergeMaster/issues).
 
 ---
 
